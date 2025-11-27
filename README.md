@@ -20,7 +20,7 @@ Gone are the days of deciphering messy handwriting. Upload answer keys and handw
 *   **Context-Aware**: Understands the difference between scratch work and final answers.
 *   **Speed**: Grades full-length papers in under 30 seconds.
 
-![Upload UI](assets/upload-ui.png)
+![Upload UI](assets/analyze.png)
 
 ### 🤖 The Agentic Workflow
 EvalGenius isn't just a wrapper around an LLM; it's a sophisticated **Agentic Workflow** that mimics the cognitive process of a human grader.
@@ -72,11 +72,11 @@ EvalGenius employs a serverless, client-side architecture for maximum privacy an
 
 See EvalGenius in action!
 
-<!-- GIF PLACEHOLDER 1: Add your workflow demo GIF here -->
-> *[Insert Workflow Demo GIF Here]*
+Webiste Link:-
 
-<!-- GIF PLACEHOLDER 2: Add your grading result GIF here -->
-> *[Insert Grading Result GIF Here]*
+![Adobe Express - gif1 (4)](https://github.com/user-attachments/assets/53b17984-f12d-4150-9034-05e84b4d2d68)
+![Adobe Express - giffy2](https://github.com/user-attachments/assets/dd8c32c7-1a3b-4e7b-9329-4e8e0ebca6b7)
+
 
 ## 🚀 Getting Started
 
