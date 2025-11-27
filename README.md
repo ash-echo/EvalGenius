@@ -1,4 +1,4 @@
-# EvalGenius 🧠✨
+# EvalGenius 🧠
 
 > **Pioneering the future of educational assessment with Agentic AI. Precision, speed, and fairness in every grade.**
 
