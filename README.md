@@ -42,32 +42,29 @@ Our proprietary **Vision Layer** powers the core intelligence. It doesn't just "
 
 EvalGenius is built on a modern, high-performance stack designed for speed, scalability, and reliability.
 
-![Tech Stack](assets/tech-stack.png)
 
--   **Frontend**: React 19, TypeScript, Vite, TailwindCSS, Framer Motion
--   **AI Core**: Google Gemini 2.5 Flash, Google GenAI SDK
--   **Document Processing**: PDF.js, Canvas API
--   **Data & Validation**: JSON Schema Validation
+
+-   **Frontend**:
+    ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+    ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+    ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+    ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+    ![Framer Motion](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+-   **AI Core**:
+    ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+    ![Google GenAI SDK](https://img.shields.io/badge/Google_GenAI_SDK-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+-   **Document Processing**:
+    ![PDF.js](https://img.shields.io/badge/PDF.js-DC2C27?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
+    ![Canvas API](https://img.shields.io/badge/Canvas_API-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+-   **Data & Validation**:
+    ![JSON Schema](https://img.shields.io/badge/JSON_Schema-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ## 🏗️ Architecture
 
 EvalGenius employs a serverless, client-side architecture for maximum privacy and low latency. The entire grading pipeline runs securely, leveraging the power of Gemini 2.5 for reasoning.
-
-### System Data Flow
-
-```mermaid
-graph TD
-    A[User Uploads PDF] -->|PDF.js| B(Rasterization & Pre-processing)
-    B -->|Canvas API| C{Vision Layer}
-    C -->|Images & Context| D[Gemini 2.5 Flash Agent]
-    D -->|Reasoning & Grading| E[JSON Schema Validation]
-    E -->|Structured Data| F[React UI Dashboard]
-    F -->|Feedback & Score| G[Final Report]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style G fill:#9f9,stroke:#333,stroke-width:2px
-```
 
 ![Architecture](assets/architecture.png)
 
@@ -112,9 +109,9 @@ See EvalGenius in action!
     npm run dev
     ```
 
-## 🤝 Contributing
+## 🤝 Contribution
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Colaborated with Hemanth Kumar,Thejesh
 
 ## 📄 License
 
