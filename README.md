@@ -1,4 +1,4 @@
-# EvalGenius 🧠✨
+# EvalGenius 🧠
 
 > **Pioneering the future of educational assessment with Agentic AI. Precision, speed, and fairness in every grade.**
 
@@ -72,11 +72,11 @@ EvalGenius employs a serverless, client-side architecture for maximum privacy an
 
 See EvalGenius in action!
 
-<!-- GIF PLACEHOLDER 1: Add your workflow demo GIF here -->
-> *[Insert Workflow Demo GIF Here]*
+Webiste Link:-
 
-<!-- GIF PLACEHOLDER 2: Add your grading result GIF here -->
-> *[Insert Grading Result GIF Here]*
+![Adobe Express - gif1 (4)](https://github.com/user-attachments/assets/53b17984-f12d-4150-9034-05e84b4d2d68)
+![Adobe Express - giffy2](https://github.com/user-attachments/assets/dd8c32c7-1a3b-4e7b-9329-4e8e0ebca6b7)
+
 
 ## 🚀 Getting Started
 
