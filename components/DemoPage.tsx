@@ -444,7 +444,7 @@ const DemoPage: React.FC = () => {
   };
 
   return (
-    <div className="pt-32 pb-20 container mx-auto px-6 min-h-screen relative">
+    <div className="pt-24 md:pt-32 pb-20 container mx-auto px-4 md:px-6 min-h-screen relative">
       {/* Dynamic Background */}
       <div className="fixed inset-0 pointer-events-none z-[-1]">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-accent/5 blur-[120px] rounded-full animate-pulse" />
@@ -471,7 +471,7 @@ const DemoPage: React.FC = () => {
               >
 
               </motion.div>
-              <h1 className="text-5xl md:text-7xl font-display font-medium text-white mb-6 tracking-tight">
+              <h1 className="text-3xl md:text-5xl lg:text-7xl font-display font-medium text-white mb-6 tracking-tight">
                 Evaluate Papers<br />
                 <motion.span
                   className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-white inline-block"
@@ -721,9 +721,9 @@ const DemoPage: React.FC = () => {
               </div>
               <button
                 onClick={downloadCSV}
-                className="hidden md:flex items-center gap-2 text-sm text-gray-400 hover:text-brand-accent transition-colors border border-white/10 px-4 py-2 rounded-full hover:bg-white/5 ml-4 whitespace-nowrap"
+                className="flex items-center gap-2 text-sm text-gray-400 hover:text-brand-accent transition-colors border border-white/10 px-4 py-2 rounded-full hover:bg-white/5 ml-4 whitespace-nowrap"
               >
-                <Download size={14} /> Export CSV
+                <Download size={14} /> <span className="hidden sm:inline">Export CSV</span><span className="sm:hidden">CSV</span>
               </button>
             </div>
 
