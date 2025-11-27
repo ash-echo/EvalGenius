@@ -1,0 +1,5 @@
+{
+  "name": "EvalGenius - AI Answer Evaluator",
+  "description": "Agentic AI platform for evaluating handwritten answer sheets and PDFs with human-level precision.",
+  "requestFramePermissions": []
+}

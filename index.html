@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EvalGenius | AI Grading Agent</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#050a05',
+              darker: '#020502',
+              card: '#0f1410',
+              green: '#bbf7d0', // green-200ish
+              accent: '#4ade80', // green-400
+              glow: '#22c55e',
+            }
+          },
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif'],
+          },
+          backgroundImage: {
+            'radial-fade': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
+            'grid-pattern': "linear-gradient(to right, #1f2937 1px, transparent 1px), linear-gradient(to bottom, #1f2937 1px, transparent 1px)",
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #020502;
+      color: #e5e7eb;
+      overflow-x: hidden;
+    }
+
+    .glass-card {
+      background: rgba(20, 30, 20, 0.4);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(74, 222, 128, 0.1);
+    }
+
+    .glass-card:hover {
+      border-color: rgba(74, 222, 128, 0.3);
+      box-shadow: 0 0 30px rgba(74, 222, 128, 0.05);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #020502;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #1f2937;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #374151;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "pdfjs-dist": "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.8.69/+esm"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
